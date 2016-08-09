@@ -1,0 +1,29 @@
+{
+  "name": "fcc-file-metadata",
+  "version": "1.0.0",
+  "description": "File Metadata Microservice. An API project for FreeCodeCamp's Backend Certification.",
+  "main": "app.js",
+    "engine": {
+    "node": "^4.4.2"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test": "tests/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/relwiwa/FCC-File-Metadata.git"
+  },
+  "author": "Walter",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/relwiwa/FCC-File-Metadata/issues"
+  },
+  "homepage": "https://github.com/relwiwa/FCC-File-Metadata#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
